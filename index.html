@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Comparison Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="font-family: 'Courier New', Courier, monospace;">
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="navbar-brand" style="color: black; font-family: 'Courier New', Courier, monospace;" >Text Comparison</h1>
+            <div class="navbar-links">
+                <a href="#" class="navbar-link" target="_blank"><button class="btn" style="font-family: 'Courier New', Courier, monospace;">About Us</button></a>
+                <a href="https://github.com/parth4tiwari" class="navbar-link" target="_blank"><button class="btn" style="font-family: 'Courier New', Courier, monospace;">GitHub</button></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="text-box">
+            <textarea id="userInput" placeholder="Enter your text here..."></textarea>
+        </div>
+        <div class="text-box">
+            <textarea id="comparisonText" placeholder="Enter text to compare..."></textarea>
+        </div>
+    </div>
+    <div class="container1">
+        <h4>Output: </h4>
+        <div id="errorOutput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
